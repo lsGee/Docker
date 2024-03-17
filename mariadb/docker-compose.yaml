@@ -4,8 +4,8 @@ services:
   mariadb:
     image: 'bitnami/mariadb:latest'
     environment:
-      - MARIADB_ROOT_PASSWORD: admin
-      - TZ: Asia/Seoul
+      - MARIADB_ROOT_PASSWORD=admin
+      - TZ=Asia/Seoul
     volumes: 
       - mariadb:/var/lib/mysql
     ports: 
