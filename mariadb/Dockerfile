@@ -1,2 +1,2 @@
-FROM mariadb:3.1
+FROM mariadb
 WORKDIR /home/ubuntu/data
